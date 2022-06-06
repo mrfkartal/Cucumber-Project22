@@ -67,17 +67,17 @@ public class AmazonStepDefinitions {
     }
     @Given("sonuclarin {string} icerdigini test eder")
     public void sonuclarin_icerdigini_test_eder(String istenenKelime) {
-        String aranaKelime="istenenKelime";
+
         String actualAramaSonucStr=AmazonPage.aramaSonucElementi.getText();
 
-        Assert.assertTrue(actualAramaSonucStr.contains(aranaKelime));
+        Assert.assertTrue(actualAramaSonucStr.contains(istenenKelime));
 
 
     }
 
     @Given("kullanici {string} anasayfasinda") //amazonUrl
     public void kullaniciAnasayfasinda(String istenenUrl) {
-        Driver.getDriver().get(ConfigReader.getProperty("istenenUrl"));
+        Driver.getDriver().get(ConfigReader.getProperty(istenenUrl));
 
     }
 
