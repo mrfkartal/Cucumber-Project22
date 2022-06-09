@@ -4,6 +4,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
+
 @RunWith(Cucumber.class)
 @CucumberOptions(
         plugin={"html:target/cucumber-reports.html",
@@ -15,9 +16,7 @@ import org.junit.runner.RunWith;
         tags = "@parametre",
         dryRun = false
 )
-
-public class Runner {
-
+public class TestRunner {
 
     /*
     Bir framework'de bir  tek Runner class'i yeterli olabilir
@@ -35,4 +34,6 @@ public class Runner {
     dryRun=false;
      */
 
-}
+    }
+
+
