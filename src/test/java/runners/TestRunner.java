@@ -13,8 +13,8 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",
         glue = "stepDefinitions",
-        tags = "@parametre",
-        dryRun = false
+        tags = "@aut",
+        dryRun = true
 )
 public class TestRunner {
 
