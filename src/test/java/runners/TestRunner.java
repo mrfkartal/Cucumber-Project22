@@ -21,7 +21,7 @@ public class TestRunner {
     /*
     Bir framework'de bir  tek Runner class'i yeterli olabilir
     Runner class'inda calss body'sinde hic bir sey olmaz
-    Runner class'imizi oneli yapan 2 adeta annotaion vardir.
+    Runner class'imizi onemli yapan 2 adeta annotaion vardir.
     @RunWith(Cucumber.class) notasyonu Runner class"ina calisma ozelligi katar
     Bu notasyon oldugu icin Cucumber framework'umuzde Junit kullanmayi tercih ediyoruz
 
