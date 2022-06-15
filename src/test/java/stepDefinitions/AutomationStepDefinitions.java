@@ -15,6 +15,7 @@ public class AutomationStepDefinitions {
     public void user_create_and_account_bölümüne_email_adresi_girer() {
 
     }
+
     @Given("Create an Account butonuna basar")
     public void create_an_account_butonuna_basar() {
         // Write code here that turns the phrase above into concrete actions
@@ -24,6 +25,7 @@ public class AutomationStepDefinitions {
     public void user_kisisel_bilgilerini_ve_iletisim_bilgilerini_girer() {
 
     }
+
     @Given("user Register butonuna basar")
     public void user_register_butonuna_basar() {
 

@@ -51,6 +51,7 @@ public class TutorialStepDefinitions {
     public void kullanici_urun_listesi_ile_sepetteki_urunleri_karsilastirir() {
         Assert.assertTrue(urunListesi.containsAll(sepetListesi));
     }
+
     @Then("kullanici sayafadan ayrilir")
     public void kullanici_sayafadan_ayrilir() {
         Driver.closeDriver();

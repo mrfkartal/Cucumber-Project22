@@ -18,6 +18,8 @@ public class GuruStepDefinitions {
     @Given("{string}, sutunundaki tum degerleri yazdirir")
     public void sutunundaki_tum_degerleri_yazdirir(String istenenSutun) {
 
+
+
         List<WebElement> tabloBaslikListesi= guruPage.baslikListesi;
         // listemiz webelementlerden olusuyor
         // dolayisiyla bu webelementlerden hangisi
