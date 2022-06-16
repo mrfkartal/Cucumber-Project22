@@ -26,10 +26,12 @@ public class DataTablesStepDefinitions {
     public void position_bolumune_yazar(String position) {
         dataTablesPage.position.sendKeys(position);
     }
+
     @Then("ofis bolumune {string} yazar")
     public void ofis_bolumune_yazar(String office) {
         dataTablesPage.office.sendKeys(office);
     }
+
     @Then("extension bolumune {string} yazar")
     public void extension_bolumune_yazar(String extension) {
         dataTablesPage.extn.sendKeys(extension);
