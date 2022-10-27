@@ -17,7 +17,7 @@ public class DataTablesStepDefinitions {
         dataTablesPage.firstname.sendKeys(firstname);
 
     }
-    @Then("soyisim bolumune {string} yazar")
+     @Then("soyisim bolumune {string} yazar")
     public void soyisim_bolumune_yazar(String lastName) {
         dataTablesPage.lastName.sendKeys(lastName);
 
